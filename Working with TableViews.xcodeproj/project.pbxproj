@@ -9,6 +9,23 @@
 /* Begin PBXBuildFile section */
 		8CF88E1A21F7CEBE0021E246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF88E1921F7CEBE0021E246 /* AppDelegate.swift */; };
 		8CF88E2121F7CEC10021E246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E2021F7CEC10021E246 /* Assets.xcassets */; };
+		8CF88E3D21F800690021E246 /* vicki.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E2A21F800690021E246 /* vicki.png */; };
+		8CF88E3E21F800690021E246 /* alexis.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E2B21F800690021E246 /* alexis.png */; };
+		8CF88E3F21F800690021E246 /* kim.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E2C21F800690021E246 /* kim.png */; };
+		8CF88E4021F800690021E246 /* ellen.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E2D21F800690021E246 /* ellen.png */; };
+		8CF88E4121F800690021E246 /* ryan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E2E21F800690021E246 /* ryan.png */; };
+		8CF88E4221F800690021E246 /* matthijs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E2F21F800690021E246 /* matthijs.png */; };
+		8CF88E4321F800690021E246 /* chris.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3021F800690021E246 /* chris.png */; };
+		8CF88E4421F800690021E246 /* cesare.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3121F800690021E246 /* cesare.png */; };
+		8CF88E4521F800690021E246 /* tammy.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3221F800690021E246 /* tammy.png */; };
+		8CF88E4621F800690021E246 /* ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3321F800690021E246 /* ray.png */; };
+		8CF88E4721F800690021E246 /* saul.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3421F800690021E246 /* saul.png */; };
+		8CF88E4821F800690021E246 /* jake.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3521F800690021E246 /* jake.png */; };
+		8CF88E4921F800690021E246 /* marin.png in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3621F800690021E246 /* marin.png */; };
+		8CF88E4A21F800690021E246 /* Presenter.js in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3821F800690021E246 /* Presenter.js */; };
+		8CF88E4B21F800690021E246 /* ResourceLoader.js in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3921F800690021E246 /* ResourceLoader.js */; };
+		8CF88E4C21F800690021E246 /* application.js in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3A21F800690021E246 /* application.js */; };
+		8CF88E4D21F800690021E246 /* RWDevConTemplate.xml.js in Resources */ = {isa = PBXBuildFile; fileRef = 8CF88E3C21F800690021E246 /* RWDevConTemplate.xml.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +33,23 @@
 		8CF88E1921F7CEBE0021E246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CF88E2021F7CEC10021E246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CF88E2221F7CEC10021E246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF88E2A21F800690021E246 /* vicki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vicki.png; sourceTree = "<group>"; };
+		8CF88E2B21F800690021E246 /* alexis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alexis.png; sourceTree = "<group>"; };
+		8CF88E2C21F800690021E246 /* kim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kim.png; sourceTree = "<group>"; };
+		8CF88E2D21F800690021E246 /* ellen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ellen.png; sourceTree = "<group>"; };
+		8CF88E2E21F800690021E246 /* ryan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ryan.png; sourceTree = "<group>"; };
+		8CF88E2F21F800690021E246 /* matthijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matthijs.png; sourceTree = "<group>"; };
+		8CF88E3021F800690021E246 /* chris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chris.png; sourceTree = "<group>"; };
+		8CF88E3121F800690021E246 /* cesare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cesare.png; sourceTree = "<group>"; };
+		8CF88E3221F800690021E246 /* tammy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tammy.png; sourceTree = "<group>"; };
+		8CF88E3321F800690021E246 /* ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ray.png; sourceTree = "<group>"; };
+		8CF88E3421F800690021E246 /* saul.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saul.png; sourceTree = "<group>"; };
+		8CF88E3521F800690021E246 /* jake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jake.png; sourceTree = "<group>"; };
+		8CF88E3621F800690021E246 /* marin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marin.png; sourceTree = "<group>"; };
+		8CF88E3821F800690021E246 /* Presenter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Presenter.js; sourceTree = "<group>"; };
+		8CF88E3921F800690021E246 /* ResourceLoader.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = ResourceLoader.js; sourceTree = "<group>"; };
+		8CF88E3A21F800690021E246 /* application.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = application.js; sourceTree = "<group>"; };
+		8CF88E3C21F800690021E246 /* RWDevConTemplate.xml.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = RWDevConTemplate.xml.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +85,57 @@
 				8CF88E1921F7CEBE0021E246 /* AppDelegate.swift */,
 				8CF88E2021F7CEC10021E246 /* Assets.xcassets */,
 				8CF88E2221F7CEC10021E246 /* Info.plist */,
+				8CF88E2821F800690021E246 /* client */,
 			);
 			path = "Working with TableViews";
+			sourceTree = "<group>";
+		};
+		8CF88E2821F800690021E246 /* client */ = {
+			isa = PBXGroup;
+			children = (
+				8CF88E2921F800690021E246 /* images */,
+				8CF88E3721F800690021E246 /* js */,
+				8CF88E3B21F800690021E246 /* templates */,
+			);
+			path = client;
+			sourceTree = "<group>";
+		};
+		8CF88E2921F800690021E246 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				8CF88E2A21F800690021E246 /* vicki.png */,
+				8CF88E2B21F800690021E246 /* alexis.png */,
+				8CF88E2C21F800690021E246 /* kim.png */,
+				8CF88E2D21F800690021E246 /* ellen.png */,
+				8CF88E2E21F800690021E246 /* ryan.png */,
+				8CF88E2F21F800690021E246 /* matthijs.png */,
+				8CF88E3021F800690021E246 /* chris.png */,
+				8CF88E3121F800690021E246 /* cesare.png */,
+				8CF88E3221F800690021E246 /* tammy.png */,
+				8CF88E3321F800690021E246 /* ray.png */,
+				8CF88E3421F800690021E246 /* saul.png */,
+				8CF88E3521F800690021E246 /* jake.png */,
+				8CF88E3621F800690021E246 /* marin.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		8CF88E3721F800690021E246 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				8CF88E3821F800690021E246 /* Presenter.js */,
+				8CF88E3921F800690021E246 /* ResourceLoader.js */,
+				8CF88E3A21F800690021E246 /* application.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		8CF88E3B21F800690021E246 /* templates */ = {
+			isa = PBXGroup;
+			children = (
+				8CF88E3C21F800690021E246 /* RWDevConTemplate.xml.js */,
+			);
+			path = templates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,7 +196,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CF88E3E21F800690021E246 /* alexis.png in Resources */,
+				8CF88E3D21F800690021E246 /* vicki.png in Resources */,
 				8CF88E2121F7CEC10021E246 /* Assets.xcassets in Resources */,
+				8CF88E4421F800690021E246 /* cesare.png in Resources */,
+				8CF88E4521F800690021E246 /* tammy.png in Resources */,
+				8CF88E3F21F800690021E246 /* kim.png in Resources */,
+				8CF88E4021F800690021E246 /* ellen.png in Resources */,
+				8CF88E4621F800690021E246 /* ray.png in Resources */,
+				8CF88E4721F800690021E246 /* saul.png in Resources */,
+				8CF88E4D21F800690021E246 /* RWDevConTemplate.xml.js in Resources */,
+				8CF88E4A21F800690021E246 /* Presenter.js in Resources */,
+				8CF88E4321F800690021E246 /* chris.png in Resources */,
+				8CF88E4B21F800690021E246 /* ResourceLoader.js in Resources */,
+				8CF88E4221F800690021E246 /* matthijs.png in Resources */,
+				8CF88E4921F800690021E246 /* marin.png in Resources */,
+				8CF88E4C21F800690021E246 /* application.js in Resources */,
+				8CF88E4821F800690021E246 /* jake.png in Resources */,
+				8CF88E4121F800690021E246 /* ryan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

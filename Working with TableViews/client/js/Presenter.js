@@ -1,10 +1,11 @@
 var Presenter = {
     //creates a TVML document 
+    //if you can read this, the files are working
     makeDocument: function(resource) {
         if (!Presenter.parser) {
             Presenter.parser = new DOMParser(); //convert TVML string into object
         }
-        var doc = Presenter.parser.parseFromString(resource, "applicaiton/xml");
+        var doc = Presenter.parser.parseFromString(resource, "application/xml");
         return doc
     }, 
     //takes a TVML document and presents it onscreen, modally
