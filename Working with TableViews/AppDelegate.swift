@@ -7,15 +7,31 @@
 //
 
 import UIKit
+import TVMLKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, TVApplicationControllerDelegate {
 
     var window: UIWindow?
+    
+    //MARK:- Apple TV specific setup properties
+    var appController: TVApplicationController? //communicates with server
+    static let TVBaseURL = "http://localhost:9001/"
+    static let TVBootURL = "\(AppDelegate.TVBaseURL)js/application.js"
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]? = nil) -> Bool {
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        //the context allows us to provide launch config information for our TVML app
+        
+        let appControllerContext = TVApplicationControllerContext()
+        guard let javaScriptURL = URL(string: AppDelegate.TVBootURL) else { fatalError("unable to create URL") }
+        appControllerContext.javaScriptApplicationURL = javaScriptURL
+        appControllerContext.launchOptions["BASEURL"] = AppDelegate.TVBaseURL
+        
+        appController = TVApplicationController(context: appControllerContext, window: window, delegate: self)
         return true
     }
 
